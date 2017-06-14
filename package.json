@@ -1,0 +1,31 @@
+{
+  "name": "inversify-react-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && cross-var serve -p $PORT"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "7.x",
+    "npm": "5.x"
+  },
+  "dependencies": {
+    "inversify": "^4.1.1",
+    "inversify-react": "^0.2.0",
+    "react": "^15.6.0",
+    "react-dom": "^15.6.0",
+    "reflect-metadata": "^0.1.10",
+    "steal": "^1.5.4"
+  },
+  "devDependencies": {
+    "@types/prop-types": "^15.5.1",
+    "@types/react": "^15.0.28",
+    "@types/react-dom": "^15.5.0",
+    "cross-var": "^1.0.3",
+    "typescript": "^2.3.4",
+    "serve": "^5.2.2"
+  }
+}
